@@ -30,6 +30,12 @@ export default defineConfig({
           { text: '异步组件', link: '/Bases/asyncComponent' },
         ],
       },
+      {
+        text:'内置组件',
+        items: [
+          {text: 'teleport', link: '/InsideComponents/teleport'}
+        ]
+      }
     ],
 
     socialLinks: [

@@ -13,6 +13,7 @@ declare module 'vue' {
     AsyncCom: typeof import('./src/components/AsyncCom.vue')['default']
     ErrorCom: typeof import('./src/components/ErrorCom.vue')['default']
     LoadingCom: typeof import('./src/components/LoadingCom.vue')['default']
+    MyModal: typeof import('./src/components/MyModal.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     VirtualList: typeof import('./src/components/VirtualList.vue')['default']
